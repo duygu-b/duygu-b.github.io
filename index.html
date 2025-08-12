@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> <!--for turkish characters--> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--mobile compatibility-->
+        <title>Duygu's Personal Website</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                background-color: white;
+            }
+            h1 { color: black; margin-top: 50px; }
+            p  { color: gray;  font-size: 18px; }
+
+            a { color: blue; text-decoration: none; font-weight: bold; }
+            a:hover { text-decoration: underline; }
+
+            .section { margin-top: 40px; }
+            .section-left { text-align: left; }
+            .clickable { cursor: pointer; color: rgb(80, 80, 207); } /* SADE: sadece tıklanabilir başlıklarda el işareti ve mavi renk */
+
+            .hidden { display: none; }
+        </style>
+    </head>
+    <body>
+        <h1>Merhaba / Hi / Ciao, </h1>
+        <p>I'm Duygu!</p>
+        <p>This is my personal website.</p>
+
+        <h2 class="clickable" onclick="toggleText('aboutText')">About Me</h2>
+        <p id="aboutText" class="hidden">I'm a PhD researcher in linguistics at Ulster University. My research focuses on bilingualism, cognitive control, and sentence processing.</p>
+
+        <h2 class="clickable" onclick="toggleText('cvText')">CV</h2>
+        <p id="cvText" class="hidden">You can download my CV here: <a href="cv-dbuga.pdf" target="_blank">Download CV</a></p>
+    <script>
+    function toggleText(id) {
+        const element = document.getElementById(id);
+        element.classList.toggle('hidden');
+    }
+    </script>
+    
+    </body>
+</html>
