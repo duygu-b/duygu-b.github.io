@@ -3,31 +3,35 @@
     <head>
         <meta charset="UTF-8"> <!--for turkish characters--> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--mobile compatibility-->
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
         <title>Duygu's Personal Website</title>
         <style>
             body {
-                font-family: Arial, sans-serif;
+                font-family: "Caveat", cursive;
                 text-align: center;
                 margin: 0;
                 padding: 0;
                 background-color: white;
+                background-image: url(board.jpg);
+                background-position: center; 
             }
-            h1 { color: black; margin-top: 50px; }
-            p  { color: gray;  font-size: 18px; }
+            h1 { color: rgb(219, 250, 62); margin-top: 100px; font-size: 65px; }
+            p  { color: rgb(240, 235, 235);  font-size: 35px; }
 
             a { color: rgb(218, 63, 236); text-decoration: none; font-weight: bold; }
             a:hover { text-decoration: underline; }
 
             .section { margin-top: 40px; }
             .section-left { text-align: left; }
-            .clickable { cursor: pointer; color: rgb(80, 80, 207); } /* SADE: sadece tıklanabilir başlıklarda el işareti ve mavi renk */
+            .clickable { cursor: pointer; color: rgb(219, 250, 62); font-size: 35px} /* SADE: sadece tıklanabilir başlıklarda el işareti ve mavi renk */
 
             .hidden { display: none; }
         </style>
+        
     </head>
     <body>
         <h1>Merhaba / Hi / Ciao, </h1>
-        <p>I'm Duygu! /dʊjɡʊ/ </p>
+        <p>I'm Duygu! <span style="font-family: Arial; font-size:20px;"> /dʊjɡʊ/</span></p>
         <p>This is my personal website.</p>
 
         <h2 class="clickable" onclick="toggleText('aboutText')">About Me 🐾 </h2>
@@ -46,4 +50,5 @@
     
     </body>
 </html>
+
 
