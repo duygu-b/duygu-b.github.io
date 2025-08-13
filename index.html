@@ -17,15 +17,15 @@
                 background-size: 1550px auto;
                 background-position: center; 
             }
-            h1 { color: rgb(219, 250, 62); margin-top: 100px; font-size: 65px; }
+            h1 { color: rgb(219, 250, 62); margin-top: 90px; font-size: 65px; }
             p  { color: rgb(240, 235, 235);  font-size: 35px; }
 
             a { color: rgb(218, 63, 236); text-decoration: none; font-weight: bold; }
             a:hover { text-decoration: underline; }
 
-            .section { margin-top: 40px; }
+            .section { margin-top: 35px; }
             .section-left { text-align: left; }
-            .clickable { cursor: pointer; color: rgb(219, 250, 62); font-size: 35px}
+            .clickable { cursor: pointer; color: rgb(219, 250, 62); font-size: 35px} 
 
             .hidden { display: none; }
         </style>
@@ -37,12 +37,13 @@
         <p>This is my personal website.</p>
 
         <h2 class="clickable" onclick="toggleText('aboutText')">About Me 🐾 </h2>
-        <p id="aboutText" class="hidden">I'm a PhD researcher in linguistics at Ulster University. My research focuses on bilingualism, cognitive control, and sentence processing.
-            <br>In my free time, I enjoy long walks with my dog, <a href="budi.html">Budi</a>.
+        <p id="aboutText" class="hidden"> <span style="font-size:30px;">I'm a PhD researcher in linguistics at Ulster University. My research focuses on bilingualism, cognitive control, and sentence processing. 
+            I am also a professional ESL/EFL and Turkish as a Foreign Language (TFL) teacher.
+            <br>In my free time, I enjoy long walks with my dog, <a href="budi.html">Budi</a></span>.
         </p>
 
         <h2 class="clickable" onclick="toggleText('cvText')">CV</h2>
-        <p id="cvText" class="hidden">You can download my CV here: <a href="cv-dbuga.pdf" target="_blank">Download CV</a></p>
+        <p id="cvText" class="hidden"><span style="font-size:30px;">You can download my CV here: <a href="cv-dbuga.pdf" target="_blank">Download CV</a></span></p>
     <script>
     function toggleText(id) {
         const element = document.getElementById(id);
@@ -52,6 +53,7 @@
     
     </body>
 </html>
+
 
 
 
