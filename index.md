@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Duygu Buga
 ---
 
 # Merhaba / Hi / Ciao 👋  
@@ -10,7 +10,8 @@ This is my personal website.
 
 ---
 
-## About Me 🐾
+<details>
+  <summary><strong>About Me 🐾 (Click to expand)</strong></summary>
 I'm a **PhD researcher in linguistics** at Ulster University.  
 My research focuses on **bilingualism, cognitive control, and sentence processing**.  
 
