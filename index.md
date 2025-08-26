@@ -10,7 +10,7 @@ This is my personal website.
 
 ---
 
- ## About Me 🐾 
+## About Me 🐾 
 I'm a **PhD researcher in linguistics** at Ulster University.  
 My research focuses on **bilingualism, cognitive control, and sentence processing**.  
 
