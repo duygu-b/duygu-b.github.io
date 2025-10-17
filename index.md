@@ -23,7 +23,7 @@ My PhD research focuses on **bilingualism, cognitive control, and sentence proce
 
 I am also a professional **ESL/EFL** and **Turkish as a Foreign Language (TFL)** teacher.  
 
-In my free time, I enjoy long walks with my dog, [Budi](budi.html)**.
+In my free time, I enjoy long walks with my dog, [**Budi**](budi.html).
 
 ---
 ## GitHub Portfolio
