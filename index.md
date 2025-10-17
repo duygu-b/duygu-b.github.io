@@ -13,7 +13,7 @@ This is my personal website.
 ## About Me 🐾 
 I'm a **PhD researcher in linguistics** at Ulster University.  
 My PhD research focuses on **bilingualism, cognitive control, and sentence processing**.  
-### Research interests: 
+### My Research Interests: 
 - Experimental Linguistics
   - Psycholinguistics and Neurolinguistics of bi-/multi-lingualism
   - Cognitive Neuroscience of bi-/multi-lingualism
