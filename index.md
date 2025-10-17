@@ -29,4 +29,4 @@ In my free time, I enjoy long walks with my dog, [Budi](budi.html)**.
 ## GitHub Portfolio
 <a href="https://github.com/duygu-b" target="_blank">My GitHub Profile</a>
 ## CV
-You can download my CV here: [**Download CV**](cv-dbuga.pdf)
+You can download my CV here: [**Download CV**](1page_cv_dbuga.pdf)
